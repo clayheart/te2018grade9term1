@@ -1,9 +1,23 @@
 // Example
-let message = "Hello World!";
+let message = "SerpentxGaming!";
 console.log(message);
+ let youtube = 24;
+ console.log(youtube);
+let fortnite = 8;
+console.log(fortnite);
+let callofduty = 32;
+
+let clay = "juh";
+console.log (clay);
+
+5*6 == 30;
+console.log(5*6 == 30);
+4*3 == 12;
+console.log(4*3 == 12);
 
 // Type your code below!
 
+<<<<<<< HEAD
 let doesLikeBacon = true; 
 console.log(doesLikeBacon);
 
@@ -30,3 +44,5 @@ console.log(ARworld); console.log(message4); console.log(REALworld)
 let name; 
 console.log(name);
 
+=======
+>>>>>>> c3701ec7b92376d4dc0c6d23991bc949f6595bb0
