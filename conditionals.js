@@ -34,6 +34,10 @@ if(raining =="yes" && thunderstorming =="no"){
 
 
 	console.log("grab umbrella")
+
+} else {
+
+	console.log("no umbrella")
 }
 
 
@@ -108,7 +112,23 @@ console.log(topScore)
 console.log("*** Problem 5: Phone Shopping ***");
 let money = READLINE.question("How much money do you have?: ");
 
+if (money >= 30) {
+	console.log("you can buy prepaid phone")
+}
 
+if (money >= 100) {
+	console.log("you can buy bottom teir phone")
+}
+if (money >= 300) {
+	console.log("you can buy middle teir phone")
+}
+if (money >= 600) {
+	console.log("you can buy top teir phone")
+}
+if (money <= 20){
+
+console.log("you cannot afford it")
+}
 // **** Problem 6: Guess My Number ****
 // Write code that plays a simple number guessing game with a user. You can
 // use any number you like as myNum. If the user guesses the number, print
