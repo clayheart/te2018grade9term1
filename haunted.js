@@ -21,6 +21,11 @@ if(enterHouse == "y" || enterHouse == "yes") {
   player.courage++;
   console.log(`${player.name} prepares their ${player.weapon} and opens the door...`);
   // continue the story
+console.log(`${player.name} he looks around for who ever is screaming... )
+
+
+
+
 
 } else {
   player.intellect++;
