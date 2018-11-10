@@ -112,5 +112,12 @@ if(enterDoor == "y" || enterDoor == "yes") {
 if(enterDoor == "n" || enterDoor == "no") {
 console.log("they find you and kill you")
 }
+console.log(`${player.name} the people come back uot and you see the keys on a mans belt`)
 
+enterDoor = READLINE.question(" will you take them  (yes or no)");
+
+if(enterDoor == "y" || enterDoor == "yes") {
+  
+  console.log(`${player.name}  you find yourself at the car with keys and drive off`)
+}
 console.log("Thanks for playing!");
